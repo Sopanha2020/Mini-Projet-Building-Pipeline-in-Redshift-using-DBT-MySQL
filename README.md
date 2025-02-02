@@ -19,10 +19,10 @@ L’objectif global pour l’entreprise est de mieux comprendre son activité et
 
 ---
 
-## **Objectifs et technologies**
+## 🎯**Objectifs et technologies**
 Le projet repose sur l’utilisation de **DBT (Data Build Tool)** pour orchestrer les transformations de données, et d’**Amazon Redshift** pour héberger l’entrepôt de données. Ce cadre technique nous permettra de travailler efficacement sur la transformation et la structuration des données tout en améliorant nos compétences en **SQL** et en modélisation.
 
-## **Objectifs du projet :**
+## 🎯**Objectifs du projet :**
 1. **Créer un schéma adapté pour un Data Warehouse** :
    - Simplifier les requêtes analytiques.
    - Optimiser les performances pour l’analyse.
