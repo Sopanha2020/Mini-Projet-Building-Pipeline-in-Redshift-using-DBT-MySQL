@@ -2,7 +2,7 @@
 
 ## **Présentation du projet**
 
-Ce business case vise à construire un pipeline de données complet à partir d’un jeu de données brut. L’objectif est de transformer les données brutes en un schéma adapté pour un **Data Warehouse**, permettant d’effectuer des analyses efficaces. Nous débuterons par une exploration du schéma initial, qui nécessitera une **dénormalisation** afin de répondre aux besoins analytiques spécifiques.
+Ce projet vise à construire un pipeline de données complet à partir d’un jeu de données brut. L’objectif est de transformer les données brutes en un schéma adapté pour un **Data Warehouse**, permettant d’effectuer des analyses efficaces. Nous débuterons par une exploration du schéma initial, qui nécessitera une **dénormalisation** afin de répondre aux besoins analytiques spécifiques.
 
 ---
 
