@@ -29,3 +29,42 @@ Le projet repose sur l’utilisation de **DBT (Data Build Tool)** pour orchestre
 3. **Améliorer les compétences techniques** :
    - Appliquer les concepts de modélisation des données.
    - Renforcer l'expertise en **ETL (Extract, Transform, Load)** et en **data modeling**.
+  
+## 🚀Etapes clés
+1. **Data Modeling**
+   - Analyser le jeu de données brut.
+   - Concevoir le schéma physique des données.
+   - Déterminer les besoins de dénormalisation pour créer un schéma adapté au DataWareHouse.
+  
+2. **Intégration des Données dans Redshift**
+   - Mettre en place un entrepôt de données sur Amazon Redshift.
+   - Créer et configurer un cluster Redshift Serverless.
+   - Importer les données brutes dans Redshift.
+     
+3. **Transformation des Données, Testing et Documentation à l'aide de DBT**
+   - Utiliser DBT pour orchestrer les transformations de données.
+   - Créer des modèles DBT pour structurer les données selon le schéma dénormalisé.
+   - Effectuer des tests pour valider les transformations.
+   - Documenter les transformations et les modèles dans DBT.
+  
+4. **Requêtes Analytiques**
+   - Identifier les indicateurs clés de performance (KPI) pertinents.
+   - Écrire des requêtes SQL pour extraire des insights analytiques à partir des données transformées.
+   - Créer des rapports et des visualisations basés sur les résultats des requêtes analytiques à l'aide de librairies Python au choix.
+
+## 🚀KPIs principaux
+1. **Quel est le total des ventes par client au cours de la dernière année ?**
+   - KPI : Total des ventes par client
+   - Utilité : Permet de mesurer la contribution des clients aux revenus totaux.
+2. **Quel est le montant moyen des commandes par magasin ?**
+   - KPI : Montant moyen des commandes par magasin
+   - Utilité : Aide à comparer la performance des magasins et à identifier ceux qui génèrent plus de revenus.
+3. **Quelle est la répartition des ventes par catégorie de produit ?**
+   - KPI : Répartition des ventes par catégorie de produit
+   - Utilité : Permet de comprendre quelles catégories de produits sont les plus populaires et rentables.
+4. **Quelle est la taxe totale collectée par rapport au montant total des ventes ?**
+   - KPI : Ratio de la taxe totale par rapport aux ventes totales
+   - Utilité : Assure que la taxe est correctement appliquée et permet de vérifier la conformité fiscale.
+5. **Quel est le revenu total généré par les clients classés comme Gold ?**
+   - KPI : Revenu total par classe de client (Gold)
+   - Utilité : Permet de cibler les clients Gold et d’évaluer leur impact sur les revenus.
