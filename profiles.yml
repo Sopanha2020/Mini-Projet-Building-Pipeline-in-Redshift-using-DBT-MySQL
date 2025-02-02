@@ -1,0 +1,35 @@
+miniproject:
+  target: dev
+  outputs:
+    dev:
+      type: mysql
+      server: localhost
+      port: 3306
+      database: my_dbt_db
+      schema: my_dbt_db
+      username: SSAO
+      password: Khem0055
+      driver: MySQL ODBC 8.0 ANSI Driver
+    prod:
+      type: mysql
+      server: [server/host]
+      port: [port]  # optional
+      database: [schema] # optional, should be same as schema
+      schema: [schema]
+      username: [username]
+      password: [password]
+      driver: MySQL ODBC 8.0 ANSI Driver
+
+default:
+  target: dev
+  outputs:
+    dev:
+      type: redshift
+      host: <votre-endpoint-cluster-redshift>
+      user: <votre-nom-utilisateur>
+      password: <votre-mot-de-passe>
+      port: 5439
+      dbname: <nom-de-votre-base-de-données>
+      schema: <nom-de-votre-schema>
+      threads: 4
+      sslmode: require
