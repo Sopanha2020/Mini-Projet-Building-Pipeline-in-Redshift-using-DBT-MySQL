@@ -1,8 +1,6 @@
 # ☁️ Mini Project - Building Pipeline in Redshift using DBT-MySQL
 
 Ce projet vise à construire un pipeline de données complet à partir d’un jeu de données brut. L’objectif est de transformer les données brutes en un schéma adapté pour un **Data Warehouse**, permettant d’effectuer des analyses efficaces. Nous débuterons par une exploration du schéma initial, qui nécessitera une **dénormalisation** afin de répondre aux besoins analytiques spécifiques.
-
-## **Contexte**
 Le jeu de données utilisé dans ce projet provient d'une entreprise de vente au détail souhaitant optimiser ses opérations commerciales. Ce jeu de données contient des informations détaillées sur plusieurs aspects de l'activité, notamment :
 
 - **Suivi des commandes clients** : Identifier qui achète quoi, quand, et dans quel magasin.
@@ -18,7 +16,6 @@ L’objectif global pour l’entreprise est de mieux comprendre son activité et
 ## 🎯**Objectifs et technologies**
 Le projet repose sur l’utilisation de **DBT (Data Build Tool)** pour orchestrer les transformations de données, et d’**Amazon Redshift** pour héberger l’entrepôt de données. Ce cadre technique nous permettra de travailler efficacement sur la transformation et la structuration des données tout en améliorant nos compétences en **SQL** et en modélisation.
 
-## 🎯**Objectifs du projet :**
 1. **Créer un schéma adapté pour un Data Warehouse** :
    - Simplifier les requêtes analytiques.
    - Optimiser les performances pour l’analyse.
@@ -52,7 +49,7 @@ Le projet repose sur l’utilisation de **DBT (Data Build Tool)** pour orchestre
    - Écrire des requêtes SQL pour extraire des insights analytiques à partir des données transformées.
    - Créer des rapports et des visualisations basés sur les résultats des requêtes analytiques à l'aide de librairies Python au choix.
 
-## 🚀KPIs principaux
+## 🧠KPIs principaux
 1. **Quel est le total des ventes par client au cours de la dernière année ?**
    - KPI : Total des ventes par client
    - Utilité : Permet de mesurer la contribution des clients aux revenus totaux.
