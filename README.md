@@ -27,7 +27,7 @@ Le projet repose sur l’utilisation de **DBT (Data Build Tool)** pour orchestre
    - Appliquer les concepts de modélisation des données.
    - Renforcer l'expertise en **ETL (Extract, Transform, Load)** et en **data modeling**.
   
-## 🚀Etapes clés
+## 🚀**Etapes clés**
 1. **Data Modeling**
    - Analyser le jeu de données brut.
    - Concevoir le schéma physique des données.
@@ -49,7 +49,7 @@ Le projet repose sur l’utilisation de **DBT (Data Build Tool)** pour orchestre
    - Écrire des requêtes SQL pour extraire des insights analytiques à partir des données transformées.
    - Créer des rapports et des visualisations basés sur les résultats des requêtes analytiques à l'aide de librairies Python au choix.
 
-## 🧠KPIs principaux
+## 🧠**KPIs principaux**
 1. **Quel est le total des ventes par client au cours de la dernière année ?**
    - KPI : Total des ventes par client
    - Utilité : Permet de mesurer la contribution des clients aux revenus totaux.
@@ -66,7 +66,7 @@ Le projet repose sur l’utilisation de **DBT (Data Build Tool)** pour orchestre
    - KPI : Revenu total par classe de client (Gold)
    - Utilité : Permet de cibler les clients Gold et d’évaluer leur impact sur les revenus.
           
-## Structure du dépôt
+## 📂**Structure du dépôt**
 
 ```
 project-root/
@@ -86,7 +86,7 @@ project-root/
 |    └── analysis_notebook.ipynb
 ```
 
-## Outils utilisés
+## 📌**Outils utilisés**
 
 - **DBT (Data Build Tool)** : Pour orchestrer les transformations et la documentation.
 - **Amazon Redshift** : Entrepôt de données cloud pour stocker les tables.
