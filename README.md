@@ -65,3 +65,32 @@ Le projet repose sur l’utilisation de **DBT (Data Build Tool)** pour orchestre
 5. **Quel est le revenu total généré par les clients classés comme Gold ?**
    - KPI : Revenu total par classe de client (Gold)
    - Utilité : Permet de cibler les clients Gold et d’évaluer leur impact sur les revenus.
+          
+## Structure du dépôt
+
+```
+project-root/
+|  README.md
+|  dbt/
+|    ├── models/
+|    │  ├── staging/
+|    │  ├── intermediate/
+|    │  └── data_mart/
+|    ├── seeds/
+|    ├── tests/
+|    └── analysis/
+|  data/
+|    ├── datasets/
+|    ├── images/
+|  notebook/
+|    └── analysis_notebook.ipynb
+```
+
+## Outils utilisés
+
+- **DBT (Data Build Tool)** : Pour orchestrer les transformations et la documentation.
+- **Amazon Redshift** : Entrepôt de données cloud pour stocker les tables.
+- **Python** : Pour le chargement des données et les visualisations analytiques.
+- **SQLAlchemy** : Pour interagir avec Redshift via Python.
+- **Jupyter Notebook** : Pour analyser et visualiser les données.
+<br>
